@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Scheduly AI - AI-Powered Clinical Practice Management Software. Streamline your clinical practice with intelligent scheduling, patient management, and automated workflows."
+    />
+    <meta name="keywords" content="clinical software, AI clinical, practice management, clinical scheduling, clinical automation, clinical AI solutions" />
+    <meta name="author" content="Scheduly AI" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://scheduly-ai.netlify.app/" />
+    <meta property="og:title" content="Scheduly AI - AI-Powered Clinical Practice Management" />
+    <meta property="og:description" content="Transform your clinical practice with AI-powered scheduling, patient management, and automated workflows." />
+    <meta property="og:image" content="%PUBLIC_URL%/og-image.jpg" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://scheduly-ai.netlify.app/" />
+    <meta property="twitter:title" content="Scheduly AI - AI-Powered Clinical Practice Management" />
+    <meta property="twitter:description" content="Transform your clinical practice with AI-powered scheduling, patient management, and automated workflows." />
+    <meta property="twitter:image" content="%PUBLIC_URL%/og-image.jpg" />    <!-- fix -->
+
+    <!-- FirstPromoter Tracking Script -->
+    <script>
+      (function(w){w.fpr=w.fpr||function(){w.fpr.q = w.fpr.q||[];w.fpr.q[arguments[0]=='set'?'unshift':'push'](arguments);};})(window);
+      fpr("init", {cid:"5a8ai6hi"}); 
+      fpr("click");
+    </script>
+    <script src="https://cdn.firstpromoter.com/fpr.js" async></script>
+    <script>
+      function sendReferralToFirstPromoter() {
+        if (window.fpr) {
+          var urlString = decodeURI(window.location.href);
+          var urlParams = new URLSearchParams(urlString);
+          var fprParam = urlParams.get('fpr');
+          var emailFromUrl = urlParams.get('invitee_email');
+          
+          if (fprParam) {
+            fpr("referral", { 
+              email: emailFromUrl || '',
+              ref: fprParam
+            });
+          } else if (emailFromUrl) {
+            fpr("referral", { 
+              email: emailFromUrl
+            });
+          }
+        }
+      }
+      
+      // Ensure the script runs after the page is fully loaded
+      if (document.readyState === 'complete') {
+        sendReferralToFirstPromoter();
+      } else {
+        window.addEventListener('load', sendReferralToFirstPromoter);
+      }
+    </script>
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX');
+    </script>
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Scheduly AI",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "CAD"
+      },
+      "description": "AI-Powered Dental Practice Management Software that streamlines scheduling, patient management, and automated workflows.",
+      "featureList": [
+        "AI-Powered Scheduling",
+        "Patient Management",
+        "Automated Workflows",
+        "Claims Processing",
+        "Follow-up Automation"
+      ],
+      "provider": {
+        "@type": "Organization",
+        "name": "Scheduly AI",
+        "url": "https://scheduly-ai.netlify.app"
+      }
+    }
+    </script>
+
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>Scheduly AI - AI-Powered Clinical Practice Management Software</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  </body>
+</html>
+
