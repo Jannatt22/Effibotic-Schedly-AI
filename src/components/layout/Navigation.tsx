@@ -1,52 +1,57 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import React from 'react';
 import '../../components/css/Navigation.css';
 
-const Navigation: React.FC = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+const Navigation = () => {
+  const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  // Detect mobile
+  const isMobile = typeof window !== 'undefined' && window.innerWidth <= 768;
+
   return (
     <header className="nav-header">
       <div className="nav-container">
         <div className="logo">
-          <Link to="/">
-            <img src="/logo.png" alt="Effibotic Scheduly AI" className="logo-image" />
-          </Link>
+          <a href="/" className="logo-link">
+            <img src="/logo_new.png" alt="Scheduly AI" className="logo-image" />
+          </a>
         </div>
-
         <nav className="nav-links">
-          <Link to="/">Home</Link>
-          <Link to="/features">Features</Link>
-          <Link to="/pricing">Pricing</Link>
-          <Link to="/about">About</Link>
-          <Link to="/contact">Contact</Link>
+          <a href="/" className="nav-link">Home</a>
+          <a href="#products" className="nav-link">Products</a>
+          <a href="https://calendly.com/siva-effibotic/30min?month=2025-06" target="_blank" rel="noopener noreferrer" className="nav-link">Book Demo</a>
+          <a href="#contact" className="nav-link">Contact</a>
         </nav>
-
-        <div className="hamburger-menu" onClick={toggleMenu}>
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-
-        <Link to="/login" className="cta-button">
-          Login
-        </Link>
-      </div>
-
-      <div className={`mobile-nav ${isMenuOpen ? 'active' : ''}`}>
-        <div className="mobile-nav-links">
-          <Link to="/" onClick={toggleMenu}>Home</Link>
-          <Link to="/features" onClick={toggleMenu}>Features</Link>
-          <Link to="/pricing" onClick={toggleMenu}>Pricing</Link>
-          <Link to="/about" onClick={toggleMenu}>About</Link>
-          <Link to="/contact" onClick={toggleMenu}>Contact</Link>
-          <Link to="/login" className="cta-button mobile" onClick={toggleMenu}>
+        <div className="nav-actions">
+          <a
+            href="#login"
+            className={`cta-button ${isMobile ? 'mobile' : ''}`}
+            style={isMobile ? { marginRight: '1rem' } : {}}
+          >
             Login
-          </Link>
+          </a>
+          <div 
+            className={`hamburger-menu ${isMenuOpen ? 'active' : ''}`}
+            onClick={toggleMenu}
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <div 
+          className={`mobile-nav ${isMenuOpen ? 'active' : ''}`}
+        >
+          <nav className="mobile-nav-links">
+            <a href="/" onClick={toggleMenu} className="nav-link">Home</a>
+            <a href="#products" onClick={toggleMenu} className="nav-link">Products</a>
+            <a href="https://calendly.com/siva-effibotic/30min?month=2025-06" target="_blank" rel="noopener noreferrer" onClick={toggleMenu} className="nav-link">Book Demo</a>
+            <a href="#contact" onClick={toggleMenu} className="nav-link">Contact</a>
+            <a href="#login" onClick={toggleMenu} className="nav-link">Login</a>
+          </nav>
         </div>
       </div>
     </header>
