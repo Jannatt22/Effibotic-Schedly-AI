@@ -12,8 +12,8 @@ const Footer = () => {
           </p>
           <div className="bhiv-section">
             <div className="bhiv-box">
-              <img src="/images/BHiveLogo.png" alt="BHIV" className="bhiv-logo" />
-              <p className="bhiv-text">Backed by BHIV</p>
+              <img src="/images/BHiveLogo.png" alt="BHIVE" className="bhiv-logo" />
+              <p className="bhiv-text">Backed by BHIVE</p>
             </div>
           </div>
         </div>
