@@ -154,7 +154,7 @@
   flex-direction: column;
   align-items: center;
   position: relative;
-  gap: 2rem;
+  gap: 5rem;
 }
 
 .pentagon-img {
@@ -174,8 +174,8 @@
 
 .pentagon-top {
   margin-bottom: -36px;
+  z-index: 2;
   transform: translateY(-8px) scale(1.02);
-  padding-left: 20px;
 }
 
 .pentagon-middle {
@@ -185,6 +185,6 @@
 
 .pentagon-bottom {
   margin-top: -36px;
+  z-index: 2;
   transform: translateY(-8px) scale(1.02);
-  padding-left: 20px;
 } 
