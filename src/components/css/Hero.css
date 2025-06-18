@@ -180,7 +180,7 @@
 
 .pentagon-middle {
   z-index: 1;
-  transform: translateY(8px) scale(0.98);
+  transform: translateY(8px) translateX(20px) scale(0.98);
 }
 
 .pentagon-bottom {
