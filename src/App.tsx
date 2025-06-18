@@ -6,61 +6,7 @@ import HeroSection from './components/sections/Hero';
 import ProductsSection from './components/sections/Products';
 import BenefitsSection from './components/sections/Benefits';
 import TestimonialsSection from './components/sections/Testimonials';
-
-// Footer Component
-const Footer = () => {
-  return (
-    <footer className="footer">
-      <div className="footer-content">
-        <div className="footer-company">
-          <div className="footer-logo">
-            <img src="/logo_new.png" alt="Scheduly AI" className="logo-image" />
-          </div>
-          <p className="company-description">
-            Scheduly AI helps teams streamline their scheduling process with intelligent automation and powerful analytics.
-          </p>
-          <div className="backed-by-section">
-            <img src="/BHiveLogo.png" alt="Backed by" className="backed-by-image" />
-            <span className="backed-by-text">Backed by BHIVE</span>
-          </div>
-        </div>
-        <div id="contact" className="footer-contact">
-          <h3>Contact Us</h3>
-          <div className="contact-details">
-            <div className="contact-group">
-              <span className="contact-icon">📧</span>
-              <div className="contact-info">
-                <a href="mailto:siva@effibotic.com">siva@effibotic.com</a>
-                <a href="mailto:rupendra@effibotic.com">rupendra@effibotic.com</a>
-              </div>
-            </div>
-            <div className="contact-group">
-              <span className="contact-icon">📞</span>
-              <div className="contact-info">
-                <a href="tel:+16477242624">+1 (647) 724-2624</a>
-                <a href="tel:+12899860990">+1 (289) 986-0990</a>
-              </div>
-            </div>
-            <div className="contact-group">
-              <span className="contact-icon">📍</span>
-              <div className="contact-info">
-                <address>
-                  8 Nelson St W,<br />
-                  Brampton, ON L6X 1B7
-                </address>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="footer-bottom">
-        <p className="copyright">
-          © {new Date().getFullYear()} Scheduly AI. All rights reserved.
-        </p>
-      </div>
-    </footer>
-  );
-};
+import Footer from './components/layout/Footer';
 
 // Product Detail Page Component
 const ProductDetail = () => {
