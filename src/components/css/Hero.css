@@ -1,6 +1,6 @@
 /* Hero Section */
 .hero-section {
-  background: var(--white);
+  background: rgba(59, 130, 246, 0.1);
   padding: 8rem 6rem;
   display: flex;
   align-items: flex-start;
