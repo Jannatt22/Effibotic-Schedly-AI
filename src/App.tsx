@@ -1,34 +1,9 @@
-import React, { useRef, useEffect } from 'react';
+import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link, useParams } from 'react-router-dom';
 import './App.css';
 import Navigation from './components/layout/Navigation';
 import HeroSection from './components/sections/Hero';
 import ProductsSection from './components/sections/Products';
-
-// TypeScript interfaces
-interface ProductCardProps {
-  id: string;
-  title: string;
-  description: string;
-  icon: string;
-  features: string[];
-}
-
-// Product Card Component
-const ProductCard: React.FC<ProductCardProps> = ({ id, title, description, icon, features }) => {
-  return (
-    <div className="product-card">
-      <div className="product-header">
-        <div className="product-icon">{icon}</div>
-        <h3>{title}</h3>
-      </div>
-      <p>{description}</p>
-      <Link to={`/product/${id}`} className="product-cta">
-        Learn More
-      </Link>
-    </div>
-  );
-};
 
 // Benefits Section Component
 const BenefitsSection = () => {
