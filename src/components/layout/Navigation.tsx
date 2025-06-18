@@ -16,7 +16,7 @@ const Navigation = () => {
       <div className="nav-container">
         <div className="logo">
           <a href="/" className="logo-link">
-            <img src="/logo_new.png" alt="Scheduly AI" className="logo-image" />
+            <img src="/images/logo_new.png" alt="Scheduly AI" className="logo-image" />
           </a>
         </div>
         <nav className="nav-links">

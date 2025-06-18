@@ -13,7 +13,7 @@ const HeroSection = () => {
         </div>
       </div>
       <div className="hero-image">
-        <img src="/image-1.jpg" alt="AI Scheduling Interface" className="feature-image" />
+        <img src="/images/image-1.jpg" alt="AI Scheduling Interface" className="feature-image" />
       </div>
     </section>
   );
