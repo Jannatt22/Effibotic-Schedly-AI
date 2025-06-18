@@ -2,6 +2,7 @@ import React, { useRef, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link, useParams } from 'react-router-dom';
 import './App.css';
 import Navigation from './components/layout/Navigation';
+import HeroSection from './components/sections/Hero';
 
 // TypeScript interfaces
 interface ProductCardProps {
@@ -11,25 +12,6 @@ interface ProductCardProps {
   icon: string;
   features: string[];
 }
-
-// Hero Section Component
-const HeroSection = () => {
-  return (
-    <section className="hero-section">
-      <div className="hero-content">
-        <h1>Transforming Clinical Practice with AI</h1>
-        <p>Transforming clinical practices with cutting-edge AI solutions for automation, efficiency, and enhanced patient care.</p>
-        <div className="hero-buttons">
-          <a href="https://calendly.com/siva-effibotic/30min?month=2025-06" target="_blank" rel="noopener noreferrer" className="cta-button">Book Demo</a>
-          <a href="#learn-more" className="secondary-button">Learn More</a>
-        </div>
-      </div>
-      <div className="hero-image">
-        <img src="/image-1.jpg" alt="AI Scheduling Interface" className="feature-image" />
-      </div>
-    </section>
-  );
-};
 
 // Product Card Component
 const ProductCard: React.FC<ProductCardProps> = ({ id, title, description, icon, features }) => {
