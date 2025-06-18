@@ -3,13 +3,17 @@ import '../css/Footer.css';
 
 const Footer = () => {
   return (
-    <footer className="footer">
+    <footer className="footer" id="contact">
       <div className="footer-content">
         <div className="footer-company">
           <img src="/images/logo_new.png" alt="Scheduly AI" className="footer-logo logo-image" />
           <p className="company-description">
             Scheduly AI is transforming clinical practices with cutting-edge AI solutions for automation, efficiency, and enhanced patient care.
           </p>
+          <div className="bhiv-section">
+            <img src="/images/BHiveLogo.png" alt="BHIV" className="bhiv-logo" />
+            <p className="bhiv-text">BHIV</p>
+          </div>
         </div>
         <div className="footer-contact">
           <h3>Contact Us</h3>
