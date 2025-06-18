@@ -11,8 +11,10 @@ const Footer = () => {
             Scheduly AI is transforming clinical practices with cutting-edge AI solutions for automation, efficiency, and enhanced patient care.
           </p>
           <div className="bhiv-section">
-            <img src="/images/BHiveLogo.png" alt="BHIV" className="bhiv-logo" />
-            <p className="bhiv-text">BHIV</p>
+            <div className="bhiv-box">
+              <img src="/images/BHiveLogo.png" alt="BHIV" className="bhiv-logo" />
+              <p className="bhiv-text">Backed by BHIV</p>
+            </div>
           </div>
         </div>
         <div className="footer-contact">

@@ -37,6 +37,34 @@
   margin-bottom: 2rem;
 }
 
+.bhiv-section {
+  margin-top: 1rem;
+}
+
+.bhiv-box {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  background: white;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.5rem;
+  width: fit-content;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.bhiv-logo {
+  height: 24px;
+  width: auto;
+  object-fit: contain;
+}
+
+.bhiv-text {
+  color: #333;
+  font-size: 0.875rem;
+  font-weight: 500;
+  margin: 0;
+}
+
 .footer-contact {
   max-width: 400px;
   width: 100%;
