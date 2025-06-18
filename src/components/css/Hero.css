@@ -141,7 +141,7 @@
   }
 
   .feature-image {
-    max-width: 230px;
+    max-width: 400px;
     width: 100%;
     margin: 0 auto;
     transform: translateX(20px);
@@ -175,16 +175,16 @@
 .pentagon-top {
   margin-bottom: -36px;
   z-index: 2;
-  transform: translateY(-8px) scale(1.02);
+  transform: translateY(-8px) translateX(-80px) scale(1.02);
 }
 
 .pentagon-middle {
   z-index: 1;
-  transform: translateY(8px) translateX(20px) scale(0.98);
+  transform: translateY(8px) translateX(80px) scale(0.98);
 }
 
 .pentagon-bottom {
   margin-top: -36px;
   z-index: 2;
-  transform: translateY(-8px) scale(1.02);
+  transform: translateY(-8px) translateX(-80px) scale(1.02);
 } 
