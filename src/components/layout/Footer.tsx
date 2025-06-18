@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-content">
         <div className="footer-company">
-          <img src="/logo-1.png" alt="Scheduly AI Logo" className="footer-logo logo-image" />
+          <img src="/logo_new.png" alt="Scheduly AI" className="footer-logo logo-image" />
           <p className="company-description">
             Scheduly AI is transforming clinical practices with cutting-edge AI solutions for automation, efficiency, and enhanced patient care.
           </p>
