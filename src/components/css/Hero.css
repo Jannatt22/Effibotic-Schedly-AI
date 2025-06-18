@@ -162,9 +162,7 @@
   height: 180px;
   object-fit: cover;
   clip-path: polygon(
-    50% 0%, 69% 6%, 85% 18%, 94% 35%, 98% 53%, 94% 71%,
-    85% 88%, 69% 94%, 50% 100%, 31% 94%, 15% 88%, 6% 71%,
-    2% 53%, 6% 35%, 15% 18%, 31% 6%
+    50% 0%, 80% 20%, 90% 50%, 80% 80%, 50% 100%, 20% 80%, 10% 50%, 20% 20%
   );
   border: 2px solid #E5E7EB;
   box-shadow: 4px 4px 12px rgba(0,0,0,0.10);
@@ -180,11 +178,12 @@
 }
 
 .pentagon-middle {
-  z-index: 3;
+  z-index: 1;
+  transform: translateY(8px) scale(0.98);
 }
 
 .pentagon-bottom {
   margin-top: -36px;
   z-index: 2;
-  transform: translateY(8px) scale(1.02);
+  transform: translateY(-8px) scale(1.02);
 } 
