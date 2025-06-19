@@ -156,8 +156,6 @@
   position: relative;
   gap: 0.2rem;
   transform: translateY(-35px);
-  border: 2px solid white;
-  box-shadow: 4px 4px 12px rgba(0,0,0,0.10), 8px 0px 20px rgba(255,255,255,0.8);
 
 
 }
@@ -170,8 +168,8 @@
   clip-path: polygon(
     50% 0%, 85% 15%, 100% 50%, 85% 85%, 50% 100%, 15% 85%, 0% 50%, 15% 15%
   );
-  border: 2px solid white;
-  box-shadow: 4px 4px 12px rgba(0,0,0,0.10), 8px 0px 20px rgba(255,255,255,0.8);
+  border: 4px solid white;
+  box-shadow: 4px 4px 12px rgba(255, 255, 255, 0.9), 8px 0px 20px rgba(255,255,255,0.8);
   background: #fff;
   transition: box-shadow 0.3s;
   z-index: 1;
