@@ -103,6 +103,10 @@
     transform: translateX(8px);
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
   }
+
+  .pentagon-stack {
+    margin-top: 2.5rem;
+  }
 }
 
 @media (max-width: 640px) {
@@ -147,6 +151,10 @@
     transform: translateX(20px);
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
   }
+
+  .pentagon-stack {
+    margin-top: 2.5rem;
+  }
 }
 
 .pentagon-stack {
@@ -156,8 +164,6 @@
   position: relative;
   gap: 0.2rem;
   transform: translateY(-35px);
-
-
 }
 
 .pentagon-img {
