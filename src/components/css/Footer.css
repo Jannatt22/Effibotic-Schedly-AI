@@ -175,8 +175,26 @@
     margin-bottom: 1.5rem;
   }
   .contact-details {
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
     gap: 1.5rem;
+  }
+  .contact-icons-column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 2.2rem;
+  }
+  .contact-info-column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+  }
+  .contact-info {
+    align-items: flex-start;
+    text-align: left;
   }
   .contact-group {
     flex-direction: row;
@@ -189,11 +207,6 @@
     display: block;
     text-align: left;
     align-self: center;
-  }
-  .contact-info {
-    align-items: center;
-    text-align: center;
-    font-size: 0.9rem;
   }
   .contact-info a,
   .contact-info address {
@@ -233,9 +246,27 @@
     margin: 0 auto 2rem;
     width: 100%;
   }
-  .contact-info {
+  .contact-details {
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
-    text-align: center;
+    gap: 1rem;
+  }
+  .contact-icons-column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 1.5rem;
+  }
+  .contact-info-column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+  .contact-info {
+    align-items: flex-start;
+    text-align: left;
   }
   .contact-info a,
   .contact-info address {
