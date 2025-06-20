@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 import './ProductDetail.css';
 
@@ -151,13 +151,6 @@ const productData: Record<string, ProductMetrics> = {
 const ProductDetail: React.FC = () => {
   const { productId } = useParams<{ productId: string }>();
   const product = productId ? productData[productId] : null;
-
-  useEffect(() => {
-    document.body.classList.add('subpage-background');
-    return () => {
-      document.body.classList.remove('subpage-background');
-    };
-  }, []);
 
   if (!product) {
     return (
