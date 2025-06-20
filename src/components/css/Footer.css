@@ -179,23 +179,26 @@
     gap: 1.5rem;
   }
   .contact-group {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
     gap: 0.5rem;
   }
   .contact-icon {
-    margin: 0 auto 0.2rem auto;
+    margin: 0 0.5rem 0 0;
     display: block;
-    text-align: center;
+    text-align: left;
+    align-self: center;
   }
   .contact-info {
-    align-items: center;
-    text-align: center;
+    align-items: flex-start;
+    text-align: left;
+    font-size: 0.9rem;
   }
   .contact-info a,
   .contact-info address {
-    text-align: center;
+    text-align: left;
+    font-size: 0.9rem;
   }
 }
 
