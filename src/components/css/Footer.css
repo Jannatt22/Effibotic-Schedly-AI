@@ -179,11 +179,19 @@
     gap: 1.5rem;
   }
   .contact-group {
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    gap: 1rem;
+    gap: 0.5rem;
+  }
+  .contact-icon {
+    margin: 0 auto 0.2rem auto;
+    display: block;
+    text-align: center;
   }
   .contact-info {
     align-items: center;
+    text-align: center;
   }
   .contact-info a,
   .contact-info address {

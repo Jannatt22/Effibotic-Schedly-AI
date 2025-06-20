@@ -97,16 +97,18 @@
   }
 
   .feature-image {
-    max-width: 140px;
-    width: 80%;
+    max-width: 180px;
+    width: 90%;
+    padding-left: 1rem;
+    padding-right: 1rem;
     margin: 0 auto;
-    transform: translateX(8px);
-    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
   }
 
   .pentagon-img {
-    width: 70px;
-    height: 70px;
+    width: 90px;
+    height: 90px;
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
 
   .pentagon-stack {
@@ -150,16 +152,18 @@
   }
 
   .feature-image {
-    max-width: 100px;
-    width: 80%;
+    max-width: 120px;
+    width: 90%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
     margin: 0 auto;
-    transform: translateX(20px);
-    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
   }
 
   .pentagon-img {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
   }
 
   .pentagon-stack {
