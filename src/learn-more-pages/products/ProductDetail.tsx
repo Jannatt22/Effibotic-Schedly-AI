@@ -1,6 +1,7 @@
 import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 import './ProductDetail.css';
+import Footer from '../../components/layout/Footer';
 
 interface ProductMetrics {
   title: string;
@@ -180,6 +181,7 @@ const ProductDetail: React.FC = () => {
       </div>
 
       <Link to="/#products" className="back-button">Back to Products</Link>
+      <Footer />
     </div>
   );
 };
