@@ -191,13 +191,13 @@
     align-self: center;
   }
   .contact-info {
-    align-items: flex-start;
-    text-align: left;
+    align-items: center;
+    text-align: center;
     font-size: 0.9rem;
   }
   .contact-info a,
   .contact-info address {
-    text-align: left;
+    text-align: center;
     font-size: 0.9rem;
   }
 }
@@ -232,5 +232,13 @@
     text-align: center;
     margin: 0 auto 2rem;
     width: 100%;
+  }
+  .contact-info {
+    align-items: center;
+    text-align: center;
+  }
+  .contact-info a,
+  .contact-info address {
+    text-align: center;
   }
 } 
