@@ -114,6 +114,7 @@ const ProductDetail = () => {
         </ul>
       </div>
       <Link to="/" className="cta-button">Back to Products</Link>
+      <Footer />
     </div>
   );
 };
