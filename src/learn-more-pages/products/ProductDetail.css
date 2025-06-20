@@ -1,6 +1,6 @@
 body.subpage-background {
-  background: linear-gradient(120deg, rgba(59,130,246,0.12) 0%, rgba(255,255,255,0.7) 100%), url('/images/image-1.jpg') no-repeat center center;
-  background-size: cover;
+  background: linear-gradient(120deg, rgba(59,130,246,0.12) 0%, rgba(255,255,255,0.7) 100%), url('/images/image-1.jpg') no-repeat center center !important;
+  background-size: cover !important;
 }
 
 .product-detail-container {
