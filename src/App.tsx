@@ -99,23 +99,25 @@ const ProductDetail = () => {
   }
 
   return (
-    <div className="product-detail">
-      <div className="product-detail-header">
-        <div className="product-detail-icon">{product.icon}</div>
-        <h1>{product.title}</h1>
+    <>
+      <div className="product-detail">
+        <div className="product-detail-header">
+          <div className="product-detail-icon">{product.icon}</div>
+          <h1>{product.title}</h1>
+        </div>
+        <p className="product-detail-description">{product.description}</p>
+        <div className="product-detail-features">
+          <h2>Key Features</h2>
+          <ul>
+            {product.features.map((feature, index) => (
+              <li key={index}>{feature}</li>
+            ))}
+          </ul>
+        </div>
+        <Link to="/" className="cta-button">Back to Products</Link>
       </div>
-      <p className="product-detail-description">{product.description}</p>
-      <div className="product-detail-features">
-        <h2>Key Features</h2>
-        <ul>
-          {product.features.map((feature, index) => (
-            <li key={index}>{feature}</li>
-          ))}
-        </ul>
-      </div>
-      <Link to="/" className="cta-button">Back to Products</Link>
       <Footer />
-    </div>
+    </>
   );
 };
 
