@@ -233,7 +233,7 @@
   }
 
   .pentagon-middle {
-    transform: translateY(5px) translateX(50px) scale(0.98);
+    transform: translateY(5px) translateX(50px) scale(1.02);
   }
 
   .pentagon-bottom {
@@ -242,7 +242,7 @@
   }
 
   .pentagon-stack {
-    margin-top: 4rem;
+    margin-top: 2.5rem;
     gap: 0;
     padding: 0 10px;
     transform: none;
