@@ -155,16 +155,16 @@
 
   .pentagon-top {
     margin-bottom: -7px;
-    transform: translateY(-2px) translateX(-15px) scale(1.02);
+    transform: translateY(-5px) translateX(-50px) scale(1.02);
   }
 
   .pentagon-middle {
-    transform: translateY(2px) translateX(15px) scale(0.98);
+    transform: translateY(5px) translateX(50px) scale(0.98);
   }
 
   .pentagon-bottom {
     margin-top: -7px;
-    transform: translateY(-2px) translateX(-15px) scale(1.02);
+    transform: translateY(-5px) translateX(-50px) scale(1.02);
   }
 
   .pentagon-stack {
@@ -229,16 +229,16 @@
 
   .pentagon-top {
     margin-bottom: -5px;
-    transform: translateY(-1px) translateX(-20px) scale(1.02);
+    transform: translateY(-5px) translateX(-50px) scale(1.02);
   }
 
   .pentagon-middle {
-    transform: translateY(1px) translateX(20px) scale(0.98);
+    transform: translateY(5px) translateX(50px) scale(0.98);
   }
 
   .pentagon-bottom {
     margin-top: -5px;
-    transform: translateY(-1px) translateX(-20px) scale(1.02);
+    transform: translateY(-5px) translateX(-50px) scale(1.02);
   }
 
   .pentagon-stack {
