@@ -144,7 +144,14 @@
     margin: 0 auto;
     padding: 0;
   }
-
+  .pentagon-stack {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    gap: 0rem;
+    transform: translateY(-35px);
+}
 
   .pentagon-img {
     width: 15px;
