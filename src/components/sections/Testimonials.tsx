@@ -10,15 +10,15 @@ const TestimonialsSection = () => {
       rating: 5
     },
     {
-      text: '"Our customer support has been transformed by the AI Chatbot. It handles over 80% of routine inquiries instantly, provides 24/7 support, and has improved our customer satisfaction scores by 40%. The multilingual support is a game-changer."',
-      author: "Mark Thompson",
-      role: "E-commerce Director",
+      text: '"Our patient communication has been transformed by the AI Chatbot. It handles over 80% of routine inquiries—like appointment scheduling and FAQs—instantly. The 24/7 support and multilingual capabilities have significantly improved patient satisfaction."',
+      author: "Dr. Sarah Bennett",
+      role: "Clinic Owner",
       rating: 5
     },
     {
-      text: '"The AI Lead Generator has completely transformed our sales process. It not only identifies potential leads but qualifies them with incredible accuracy. Our conversion rates have increased by 45%, and the automated nurturing sequences save our team countless hours."',
-      author: "Lisa Rodriguez",
-      role: "Sales Manager",
+      text: '"The AI Lead Generator has completely changed how we attract and qualify new patients. It identifies high-quality leads and follows up automatically, which has increased our bookings by 45%. It’s like having an extra staff member working around the clock."',
+      author: "Dr. James Lee",
+      role: "Clinic Owner",
       rating: 5
     }
   ];

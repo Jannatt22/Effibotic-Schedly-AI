@@ -27,7 +27,7 @@ const BenefitsSection = () => {
 
   return (
     <section id="benefits" className="benefits-section">
-      <h2>Why Choose Scheduly AI?</h2>
+      <h2>Why Choose Schedly AI?</h2>
       <div className="benefits-grid">
         {benefits.map((benefit, index) => (
           <div key={index} className="benefit-card">
