@@ -21,7 +21,7 @@ body {
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   line-height: 1.6;
   color: var(--text-main);
-  background-color: var(--bg-light);
+  background-color: rgba(59, 130, 246, 0.1);
 }
 
 /* Navigation Header */
