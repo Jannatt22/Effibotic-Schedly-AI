@@ -1012,6 +1012,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background: rgba(59, 130, 246, 0.1);
 }
 
 .product-detail-header {
@@ -1026,20 +1027,20 @@ body {
 .product-detail-icon {
   font-size: 2rem;
   background: var(--bg-light);
-  padding: 1.2rem;
+  padding: 1.5rem;
   border-radius: 1rem;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .product-detail h1 {
   font-size: 2.5rem;
-  color: #3B82F6;
+  color: var(--text-main);
   margin: 0;
 }
 
 .product-detail-features h2 {
   font-size: 1.75rem;
-  color: #3B82F6;
+  color: var(--text-main);
   margin-bottom: 2rem;
   text-align: center;
 }
@@ -1080,6 +1081,30 @@ body {
   display: flex;
   align-items: center;
   gap: 1rem;
+}
+
+.product-detail-features li:nth-child(1) {
+  background: rgba(255, 182, 193, 0.1); /* Soft pink */
+}
+
+.product-detail-features li:nth-child(2) {
+  background: rgba(173, 216, 230, 0.1); /* Soft light blue */
+}
+
+.product-detail-features li:nth-child(3) {
+  background: rgba(144, 238, 144, 0.1); /* Soft light green */
+}
+
+.product-detail-features li:nth-child(4) {
+  background: rgba(255, 218, 185, 0.1); /* Soft peach */
+}
+
+.product-detail-features li:nth-child(5) {
+  background: rgba(221, 160, 221, 0.1); /* Soft plum */
+}
+
+.product-detail-features li:nth-child(6) {
+  background: rgba(255, 255, 224, 0.1); /* Soft light yellow */
 }
 
 .product-detail-features li::before {
