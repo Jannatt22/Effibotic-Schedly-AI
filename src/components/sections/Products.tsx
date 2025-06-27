@@ -53,15 +53,15 @@ const ProductsSection = () => {
 
   const products = [
     {
-      id: "ai-claim-processor",
-      title: "AI Claim Processor",
-      description: "Automatically extract, validate, and submit insurance claims data with 99.9% accuracy. Reduce processing time by 70% and eliminate manual errors.",
-      icon: "📄",
+      id: "sales-lead-qualifier",
+      title: "Sales Lead Qualifier",
+      description: "Automatically identify, score, and prioritize leads based on engagement, demographics, and buying signals. Boost conversion rates and focus your sales team on high-potential prospects.",
+      icon: "📊",
       features: [
-        "Automated data extraction",
-        "99.9% accuracy rate",
-        "70% faster processing",
-        "Error elimination"
+        "Automated lead scoring",
+        "Engagement tracking",
+        "Demographic analysis",
+        "Buying signals detection"
       ]
     },
     {
