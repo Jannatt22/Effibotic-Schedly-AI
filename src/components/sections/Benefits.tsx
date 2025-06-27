@@ -6,7 +6,7 @@ const BenefitsSection = () => {
     {
       title: "24/7 Availability",
       description: "Engage patients and leads around the clock without adding extra staff.",
-      icon: "🌙"
+      icon: "🕒"
     },
     {
       title: "Seamless Integration",

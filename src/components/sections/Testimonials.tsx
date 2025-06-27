@@ -11,7 +11,7 @@ const TestimonialsSection = () => {
     },
     {
       text: '"Our patient communication has been transformed by the AI Chatbot. It handles over 80% of routine inquiries—like appointment scheduling and FAQs—instantly. The 24/7 support and multilingual capabilities have significantly improved patient satisfaction."',
-      author: "Dr. Sarah Bennett",
+      author: "Dr. Mark Bennett",
       role: "Clinic Owner",
       rating: 5
     },
