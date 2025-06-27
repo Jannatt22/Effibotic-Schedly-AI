@@ -7,118 +7,6 @@
   flex-direction: column;
 }
 
-.product-header {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  margin-bottom: 2rem;
-  padding-top: 2rem;
-  color: var(--bg-light)
-}
-
-.product-detail-container .product-icon {
-  font-size: 1.5rem;
-}
-
-.product-detail-container .product-header h1 {
-  font-size: 2rem;
-  color: var(--primary);
-  margin: 0;
-}
-.product-header h1 .sub-product-title .sub-key-features-title {
-  color: var(--bg-light)
-}
-
-.product-description {
-  font-size: 1.25rem;
-  color: #4B5563;
-  margin-bottom: 3rem;
-  max-width: 800px;
-}
-
-.metrics-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
-  margin-bottom: 3rem;
-}
-
-.metric-card {
-  background: var(--bg-light);
-  padding: 2rem;
-  border-radius: 1rem;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
-}
-
-.metric-card:hover {
-  transform: translateY(-5px);
-}
-
-.product-detail-container .metric-card h3 {
-  color: var(--primary);
-  font-size: 1.25rem;
-  margin-bottom: 1rem;
-}
-
-.metric-value {
-  font-size: 2.5rem;
-  font-weight: 700;
-  color: var(--primary);
-  margin-bottom: 1rem;
-}
-
-.metric-card p {
-  color: #6B7280;
-  line-height: 1.6;
-}
-
-.back-button {
-  display: inline-block;
-  padding: 0.75rem 0.75rem;
-  background: var(--primary);
-  color: var(--white);
-  text-decoration: none;
-  border-radius: 0.5rem;
-  max-width: 180px;
-  font-weight: 500;
-  transition: background-color 0.3s ease;
-}
-
-.back-button:hover {
-  background: #2563EB;
-}
-
-@media (max-width: 768px) {
-  .product-detail-container {
-    padding: 2rem 1rem;
-  }
-
-  .product-header h1 {
-    font-size: 2rem;
-  }
-
-  .metrics-grid {
-    grid-template-columns: 1fr;
-  }
-}
-
-.subpage-product-icon {
-  font-size: 1rem;
-}
-
-.subpage-product-title {
-  color: var(--bg-light);
-  font-size: 2.5rem;
-  margin: 0;
-}
-
-.subpage-key-features-title {
-  color: var(--primary);
-  font-size: 2rem;
-  margin-bottom: 1.5rem;
-}
-
 /* Sub Page Product Detail Section */
 .sub-product-header {
   display: flex;
@@ -155,6 +43,12 @@
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2rem;
   margin-bottom: 3rem;
+}
+
+.sub-key-features-title {
+  color: var(--primary);
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 .sub-metric-card {
@@ -204,6 +98,9 @@
 }
 
 @media (max-width: 768px) {
+  .product-detail-container {
+    padding: 2rem 1rem;
+  }
   .sub-product-header {
     padding: 2rem 1rem;
   }

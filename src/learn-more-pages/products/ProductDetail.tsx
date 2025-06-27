@@ -154,15 +154,15 @@ const ProductDetail: React.FC = () => {
 
   if (!product) {
     return (
-      <div className="product-detail-container">
+      <div className="sub-product-detail-container">
         <h1>Product Not Found</h1>
-        <Link to="/#products" className="back-button">Back to Products</Link>
+        <Link to="/#products" className="sub-back-button">Back to Products</Link>
       </div>
     );
   }
 
   return (
-    <div className="product-detail-container">
+    <div className="sub-product-detail-container">
       <div className="sub-product-header">
         <span className="sub-product-icon">{product.icon}</span>
         <h1 className="sub-product-title">{product.title}</h1>
