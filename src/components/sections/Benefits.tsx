@@ -4,24 +4,24 @@ import '../css/Benefits.css';
 const BenefitsSection = () => {
   const benefits = [
     {
-      title: "Save Time",
-      description: "Reduce scheduling time by up to 80% with AI-powered automation.",
-      icon: "⏰"
+      title: "24/7 Availability",
+      description: "Engage patients and leads around the clock without adding extra staff.",
+      icon: "🌙"
     },
     {
-      title: "Boost Productivity",
-      description: "Eliminate scheduling conflicts and focus on what matters most.",
-      icon: "📈"
+      title: "Seamless Integration",
+      description: "Connect effortlessly with your existing systems like EHR, CRM, and calendars.",
+      icon: "🔗"
     },
     {
-      title: "Improve Communication",
-      description: "Keep everyone in sync with smart notifications and updates.",
-      icon: "💬"
+      title: "Cost Savings",
+      description: "Reduce administrative overhead and operational costs with automation.",
+      icon: "💰"
     },
     {
-      title: "Data-Driven Insights",
-      description: "Make informed decisions with detailed analytics and reports.",
-      icon: "📊"
+      title: "Scale Faster",
+      description: "Handle more patients and leads without sacrificing service quality.",
+      icon: "🚀"
     }
   ];
 
