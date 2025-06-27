@@ -164,12 +164,13 @@ const ProductDetail: React.FC = () => {
   return (
     <div className="product-detail-container">
       <div className="product-header">
-        <span className="product-icon">{product.icon}</span>
-        <h1>{product.title}</h1>
+        <span className="subpage-product-icon">{product.icon}</span>
+        <h1 className="subpage-product-title">{product.title}</h1>
       </div>
       <p className="product-description">{product.description}</p>
       
       <div className="metrics-grid">
+        <h2 className="subpage-key-features-title">Key Features</h2>
         {product.metrics.map((metric, index) => (
           <div key={index} className="metric-card">
             <h3>{metric.label}</h3>

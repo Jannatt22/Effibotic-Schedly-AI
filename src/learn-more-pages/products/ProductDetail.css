@@ -97,4 +97,20 @@
   .metrics-grid {
     grid-template-columns: 1fr;
   }
+}
+
+.subpage-product-icon {
+  font-size: 1.5rem;
+}
+
+.subpage-product-title {
+  color: var(--primary);
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.subpage-key-features-title {
+  color: var(--primary);
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
 } 
