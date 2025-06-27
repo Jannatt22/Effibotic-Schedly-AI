@@ -45,7 +45,7 @@ body {
 }
 
 .logo {
-  height: 60px;
+  height: 100px;
   display: flex;
   align-items: center;
   padding-left: 1rem;
@@ -159,7 +159,7 @@ body {
   }
 
   .footer-logo {
-    height: 60px;
+    height: 70px;
     margin: 0 auto 1.5rem;
     display: block;
   }
@@ -183,7 +183,7 @@ body {
     justify-content: center;
   }
   .footer-logo {
-    height: 60px;
+    height: 70px;
     width: auto;
     margin: 0 auto 1.5rem;
     display: block;
@@ -472,7 +472,7 @@ body {
 }
 
 .footer-logo {
-  height: 60px;
+  height: 70px;
   width: auto;
   margin-bottom: 1.5rem;
 }
@@ -623,7 +623,7 @@ body {
   }
 
   .footer-logo {
-    height: 60px;
+    height: 70px;
     margin: 0 auto 1.5rem;
     display: block;
   }
@@ -663,7 +663,7 @@ body {
   }
 
   .footer-logo {
-    height: 60px;
+    height: 70px;
     width: auto;
     margin: 0 auto 1.5rem;
     display: block;
@@ -1252,11 +1252,11 @@ body {
   }
 
   .logo {
-    height: 45px;
+    height: 60px;
   }
 
   .footer-logo {
-    height: 60px;
+    height: 70px;
     margin: 0 auto 1.5rem;
     display: block;
   }
@@ -1296,7 +1296,7 @@ body {
   }
 
   .footer-logo {
-    height: 60px;
+    height: 70px;
     width: auto;
     margin: 0 auto 1.5rem;
     display: block;
