@@ -6,9 +6,9 @@
 
 .main-products-title {
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 1rem;
   margin-bottom: 3rem;
-  color: var(--text-main);
+  color: var(--primary);
 }
 
 .main-products-grid {
