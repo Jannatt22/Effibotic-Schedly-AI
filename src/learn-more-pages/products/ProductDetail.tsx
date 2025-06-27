@@ -163,24 +163,24 @@ const ProductDetail: React.FC = () => {
 
   return (
     <div className="product-detail-container">
-      <div className="product-header">
-        <span className="subpage-product-icon">{product.icon}</span>
-        <h1 className="subpage-product-title">{product.title}</h1>
+      <div className="sub-product-header">
+        <span className="sub-product-icon">{product.icon}</span>
+        <h1 className="sub-product-title">{product.title}</h1>
       </div>
-      <p className="product-description">{product.description}</p>
+      <p className="sub-product-description">{product.description}</p>
       
-      <div className="metrics-grid">
-        <h2 className="subpage-key-features-title">Key Features</h2>
+      <div className="sub-metrics-grid">
+        <h2 className="sub-key-features-title">Key Features</h2>
         {product.metrics.map((metric, index) => (
-          <div key={index} className="metric-card">
-            <h3>{metric.label}</h3>
-            <div className="metric-value">{metric.value}</div>
-            <p>{metric.description}</p>
+          <div key={index} className="sub-metric-card">
+            <h3 className="sub-metric-title">{metric.label}</h3>
+            <div className="sub-metric-value">{metric.value}</div>
+            <p className="sub-metric-description">{metric.description}</p>
           </div>
         ))}
       </div>
 
-      <Link to="/#products" className="back-button">Back to Products</Link>
+      <Link to="/#products" className="sub-back-button">Back to Products</Link>
     </div>
   );
 };

@@ -14,13 +14,13 @@ interface ProductCardProps {
 // Product Card Component
 const ProductCard: React.FC<ProductCardProps> = ({ id, title, description, icon, features }) => {
   return (
-    <div className="product-card">
-      <div className="product-header">
-        <div className="product-icon">{icon}</div>
-        <h3>{title}</h3>
+    <div className="main-product-card">
+      <div className="main-product-header">
+        <div className="main-product-icon">{icon}</div>
+        <h3 className="main-product-title">{title}</h3>
       </div>
-      <p>{description}</p>
-      <Link to={`/product/${id}`} className="product-cta">
+      <p className="main-product-description">{description}</p>
+      <Link to={`/product/${id}`} className="main-product-cta">
         Learn More
       </Link>
     </div>
@@ -43,7 +43,7 @@ const ProductsSection = () => {
       { threshold: 0.1 }
     );
 
-    const productCards = productsRef.current?.querySelectorAll('.product-card');
+    const productCards = productsRef.current?.querySelectorAll('.main-product-card');
     productCards?.forEach((card) => observer.observe(card));
 
     return () => {
@@ -127,9 +127,9 @@ const ProductsSection = () => {
   ];
 
   return (
-    <section id="products" className="products-section">
-      <h2>Our Products</h2>
-      <div className="products-grid" ref={productsRef}>
+    <section id="products" className="main-products-section">
+      <h2 className="main-products-title">Our Products</h2>
+      <div className="main-products-grid" ref={productsRef}>
         {products.map((product, index) => (
           <ProductCard key={index} {...product} />
         ))}
