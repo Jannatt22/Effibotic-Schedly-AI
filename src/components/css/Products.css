@@ -38,8 +38,10 @@
   display: flex;
   align-items: center;
   gap: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2.5rem;
   padding-top: 2rem;
+  color: var(--text-main);
+
 }
 
 .main-product-icon {

@@ -22,7 +22,7 @@
 }
 
 .sub-product-title {
-  color: var(--primary);
+  color: var(--bg-light);
   font-size: 2.5rem;
   margin: 0;
   min-width: 0;
