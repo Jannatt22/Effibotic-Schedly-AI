@@ -21,7 +21,7 @@ const Navigation = () => {
         </div>
         <nav className="nav-links">
           <a href="/" className="nav-link">Home</a>
-          <a href="#products" className="nav-link">Products</a>
+          <a href="/#products" className="nav-link">Products</a>
           <a href="https://calendly.com/siva-effibotic/30min?month=2025-06" target="_blank" rel="noopener noreferrer" className="nav-link">Book Demo</a>
           <a href="#contact" className="nav-link">Contact</a>
         </nav>
@@ -47,7 +47,7 @@ const Navigation = () => {
         >
           <nav className="mobile-nav-links">
             <a href="/" onClick={toggleMenu} className="nav-link">Home</a>
-            <a href="#products" onClick={toggleMenu} className="nav-link">Products</a>
+            <a href="/#products" onClick={toggleMenu} className="nav-link">Products</a>
             <a href="https://calendly.com/siva-effibotic/30min?month=2025-06" target="_blank" rel="noopener noreferrer" onClick={toggleMenu} className="nav-link">Book Demo</a>
             <a href="#contact" onClick={toggleMenu} className="nav-link">Contact</a>
             <a href="#login" onClick={toggleMenu} className="nav-link">Login</a>
